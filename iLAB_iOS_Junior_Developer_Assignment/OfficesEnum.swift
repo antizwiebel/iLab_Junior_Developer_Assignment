@@ -11,3 +11,4 @@ import Foundation
 enum Offices: Int {
     case Zurich = 0, Milan, Vaduz
 }
+

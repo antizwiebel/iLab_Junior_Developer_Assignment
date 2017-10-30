@@ -60,8 +60,8 @@ class OfficeDistanceTableViewController: UITableViewController {
             
             cell.startOffice.text = String(describing: officeDistance.startOffice)
             cell.destinationOffice.text = String(describing: officeDistance.destinationOffice)
-            cell.carImage.backgroundColor = getColorForChosenOffice(officeDistance.startOffice)
-            cell.lineView.backgroundColor = getColorForChosenOffice(officeDistance.startOffice)
+            cell.carImage.backgroundColor = UIColor.getColorForChosenOffice(officeDistance.startOffice)
+            cell.lineView.backgroundColor = UIColor.getColorForChosenOffice(officeDistance.startOffice)
 
         }
         return cell
@@ -115,7 +115,7 @@ class OfficeDistanceTableViewController: UITableViewController {
             case "showRoute":
                 let destinationViewController = segue.destination as! MapViewController
                 
-                let selectedOfficeDistance = officeDistances[(self.tableView.indexPathForSelectedRow?.row) ?? 0]
+                let selectedOfficeDistance = self.officeDistances[(self.tableView.indexPathForSelectedRow?.row) ?? 0]
                 destinationViewController.startOffice = selectedOfficeDistance.startOffice
                 destinationViewController.destinationOffice = selectedOfficeDistance.destinationOffice
                 destinationViewController.renderRouteForChosenOffices()
@@ -125,15 +125,5 @@ class OfficeDistanceTableViewController: UITableViewController {
             }
         }
     }
-
-    func getColorForChosenOffice(_ startOffice: Offices) -> UIColor {
-        switch startOffice {
-        case .Milan:
-            return self.milanColor
-        case .Zurich:
-            return self.zurichColor
-        case .Vaduz:
-            return self.vaduzColor
-        }
-    }
+    
 }

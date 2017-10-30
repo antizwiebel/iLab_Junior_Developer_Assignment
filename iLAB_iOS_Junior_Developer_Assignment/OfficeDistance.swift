@@ -15,8 +15,8 @@ class OfficeDistance{
     var destinationOffice : Offices
     
     init(startOffice start: Offices, destinationOffice destination: Offices, route: MKRoute) {
-        startOffice = start
-        destinationOffice = destination
+        self.startOffice = start
+        self.destinationOffice = destination
         self.route = route
     }
     

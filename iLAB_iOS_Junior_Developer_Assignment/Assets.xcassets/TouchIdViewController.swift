@@ -125,8 +125,8 @@ class TouchIdViewController: UIViewController {
     }
     
     private func showUnexpectedErrorMessage() {
-        touchIdImageView.image = UIImage(named: "TouchID_off")
-        message.text = "Unexpected error! 😱"
+        self.touchIdImageView.image = UIImage(named: "TouchID_off")
+        self.message.text = "Unexpected error! 😱"
     }
     
 }

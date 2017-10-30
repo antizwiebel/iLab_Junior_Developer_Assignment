@@ -17,6 +17,7 @@
 		C872D5CA1FA1E77B004EE781 /* OfficeDistanceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C872D5C91FA1E77B004EE781 /* OfficeDistanceTableViewController.swift */; };
 		C872D5CC1FA1E996004EE781 /* DistanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C872D5CB1FA1E996004EE781 /* DistanceTableViewCell.swift */; };
 		C872D5CE1FA1FC40004EE781 /* OfficeDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C872D5CD1FA1FC40004EE781 /* OfficeDistance.swift */; };
+		C872D5D21FA7462D004EE781 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C872D5D11FA7462D004EE781 /* ExtensionUIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C872D5C91FA1E77B004EE781 /* OfficeDistanceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfficeDistanceTableViewController.swift; sourceTree = "<group>"; };
 		C872D5CB1FA1E996004EE781 /* DistanceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceTableViewCell.swift; sourceTree = "<group>"; };
 		C872D5CD1FA1FC40004EE781 /* OfficeDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfficeDistance.swift; sourceTree = "<group>"; };
+		C872D5D11FA7462D004EE781 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				C872D5C91FA1E77B004EE781 /* OfficeDistanceTableViewController.swift */,
 				C872D5CD1FA1FC40004EE781 /* OfficeDistance.swift */,
 				C872D5CB1FA1E996004EE781 /* DistanceTableViewCell.swift */,
+				C872D5D11FA7462D004EE781 /* ExtensionUIColor.swift */,
 			);
 			path = iLAB_iOS_Junior_Developer_Assignment;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				C872D5CA1FA1E77B004EE781 /* OfficeDistanceTableViewController.swift in Sources */,
 				C872D5CC1FA1E996004EE781 /* DistanceTableViewCell.swift in Sources */,
 				C872D5C41FA142BE004EE781 /* TouchIdViewController.swift in Sources */,
+				C872D5D21FA7462D004EE781 /* ExtensionUIColor.swift in Sources */,
 				C872D5B01FA129A0004EE781 /* AppDelegate.swift in Sources */,
 				C872D5C81FA1DC1D004EE781 /* OfficesEnum.swift in Sources */,
 				C872D5CE1FA1FC40004EE781 /* OfficeDistance.swift in Sources */,
